@@ -1,8 +1,13 @@
 import sys
+<<<<<< HEAD
+======= 
+>>>>>>> jupiter
 
-der hello():
+def hello():
 	if sys.argv[1] == "Mars":
 		hellomars()
+	elif sys.argv[1] == "Jupiter":
+		hellojupiter()
 	else:
 		helloworld()
 
@@ -11,3 +16,7 @@ def hellomars():
 
 def helloworld():
 	print("Hello world")
+
+def hellojupiter():
+	print("Hello jupiter")
+
